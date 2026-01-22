@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PinView">
+        <attr name="digitBackground" format="reference|color" />
+        <attr name="digitSpacing" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="otp" format="string" />
+        <attr name="digitLength" format="integer" />
+        <attr name="digitElevation" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="digitWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressView">
+        <attr name="itemsLineWidth" format="dimension" />
+        <attr name="filledPercent" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPicker">
+        <attr name="bar_color" format="color"/>
+        <attr name="selection_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="bar_width" format="dimension"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="min_value" format="integer"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="highlight_color" format="color"/>
+        <attr name="show_highlight" format="boolean"/>
+        <attr name="draw_over_controls" format="boolean"/>
+        <attr name="show_text" format="boolean"/>
+        <attr name="draw_over_text" format="boolean"/>
+        <attr name="value" format="integer"/>
+        <attr name="bars_count" format="integer"/>
+        <attr name="show_controls" format="boolean"/>
+        <attr name="fast_controls_color" format="color"/>
+        <attr name="show_fast_controls" format="boolean"/>
+        <attr name="controls_color" format="color"/>
+        <attr name="show_bars" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PinEntryView">
+        <attr name="keypadDeleteButtonPressedColor" format="color"/>
+        <attr name="keypadDeleteButtonDrawable" format="reference"/>
+        <attr name="keypadShowDeleteButton" format="boolean"/>
+        <attr name="dotEmptyBackground" format="reference|color"/>
+        <attr name="dotFilledBackground" format="reference|color"/>
+        <attr name="dotDiameter" format="dimension"/>
+        <attr name="dotSpacing" format="dimension"/>
+        <attr name="keypadDeleteButtonSize" format="dimension"/>
+        <attr name="keypadButtonSize" format="dimension"/>
+        <attr name="keypadTextColor" format="color"/>
+        <attr name="keypadTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBottomNavigation">
+        <attr name="centre_part_linear" format="boolean"/>
+        <attr name="space_background_color" format="color"/>
+        <attr name="active_centre_button_background_color" format="color"/>
+        <attr name="active_item_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SnapPicker">
+        <attr name="snp_value_text_color" format="color"/>
+        <attr name="snp_maxValue" format="integer"/>
+        <attr name="snp_minValue" format="integer"/>
+        <attr name="snp_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="snp_value_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="HiveView">
+        <attr name="hive_animDuration" format="integer" />
+        <attr name="hive_shrink" format="boolean" />
+        <attr name="hive_color" format="color" />
+        <attr name="hive_cornerRadius" format="dimension" />
+        <attr name="hive_rainbow" format="boolean" />
+        <attr name="hive_maxAlpha" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePicker">
+        <attr name="picker_curved" format="boolean" />
+        <attr name="picker_cyclic" format="boolean" />
+        <attr name="picker_displayMinutes" format="boolean" />
+        <attr name="picker_visibleItemCount" format="integer" />
+        <attr name="picker_mustBeOnFuture" format="boolean" />
+        <attr name="picker_displayHours" format="boolean" />
+    </declare-styleable>
+
+    <!-- ✅ Added new section for slider_layout shape attribute -->
+    <declare-styleable name="SliderView">
+        <attr name="shape" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

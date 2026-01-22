@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16443389441",
+    "project_id": "emmeera-92aca",
+    "storage_bucket": "emmeera-92aca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16443389441:android:57df98b813dab7fefdb200",
+        "android_client_info": {
+          "package_name": "com.wtcb.emmeera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9eTOu67l87iO_zvXWHNnnwZwL6FHQYN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
